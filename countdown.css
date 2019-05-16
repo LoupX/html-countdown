@@ -1,0 +1,44 @@
+body{     
+    text-align: center; 
+    background-color: #00ECB9; 
+    background-repeat: no-repeat;
+    font-family: sans-serif; 
+    font-weight: 100; 
+    background-image: url('hollywood.jpg');
+} 
+
+h1{ 
+    color: gray; 
+    font-weight: 100; 
+    font-size: 40px; 
+    margin: 40px 0px 20px; 
+} 
+
+ #clockdiv{ 
+    font-family: sans-serif; 
+    color: #39319e;
+    /*color: #fff; */
+    display: inline-block; 
+    font-weight: 100; 
+    text-align: center; 
+    font-size: 30px; 
+} 
+
+#clockdiv > div{ 
+    padding: 10px; 
+    border-radius: 3px; 
+    display: inline-block; 
+} 
+
+#clockdiv div > span{ 
+    padding: 15px; 
+    border-radius: 3px; 
+    /*background: rgb(241, 70, 18); */
+    display: inline-block; 
+} 
+
+.smalltext{ 
+    padding-top: 5px;
+    padding-right: 45px;
+    font-size: 16px; 
+} 
